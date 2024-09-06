@@ -5,6 +5,10 @@ function obtenerAreaRectangulo(alto, ancho) {
   // 2, 2 ---> 4
   // 0, 2 ---> 2
   // Tu código:
+
+
+  let areaDelRectangulo = 0
+ return areaDelRectangulo= ancho * alto
 }
 
 module.exports = obtenerAreaRectangulo;

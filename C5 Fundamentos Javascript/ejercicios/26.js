@@ -3,7 +3,9 @@ function obtenerSaludo(nombre) {
   // Toma el string "nombre" y concatena otros string en la cadena para que tome la siguiente forma:
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
-  // Tu código:
+  // Tu código:  
+  let retornandoStrings="" + "Hola"+ " " + nombre+ "!"
+return retornandoStrings 
 }
 
 module.exports = obtenerSaludo;
