@@ -16,6 +16,6 @@ function continueStatement(num) {
 return array
 }
 
-}
+
 
 module.exports = continueStatement;

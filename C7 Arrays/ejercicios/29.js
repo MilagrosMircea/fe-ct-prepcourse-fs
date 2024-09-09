@@ -8,6 +8,8 @@ function encontrarNumeroFaltante(numeros) {
   for(let i = 0 ; i < numeros.length;i++ )
 {if(numeros[i]+1 !== numeros[i + 1])
 return numeros[i]+1
-}}
+}
+return null
+}
 
 module.exports = encontrarNumeroFaltante;
